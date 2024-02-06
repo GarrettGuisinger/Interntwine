@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T20:10:26.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.1.1" etag="rp1fyy97N9pf4uvQy4UT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T20:19:05.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0X4fTVQBWaxvKVRH7V-E" version="23.1.1" type="github">
   <diagram name="Page-1" id="A7D3GRE_WMKg31kayhYH">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kPyFVMleTp3-D7-jRQ-X-2" target="kPyFVMleTp3-D7-jRQ-X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-2" value="Landing page" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-3" value="Home page" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-7" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-8" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-10" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-11" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.44;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kPyFVMleTp3-D7-jRQ-X-3" target="kPyFVMleTp3-D7-jRQ-X-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="370" />
+              <mxPoint x="520" y="370" />
+              <mxPoint x="520" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kPyFVMleTp3-D7-jRQ-X-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kPyFVMleTp3-D7-jRQ-X-3" target="kPyFVMleTp3-D7-jRQ-X-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
