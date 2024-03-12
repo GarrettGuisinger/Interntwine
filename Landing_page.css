@@ -1,8 +1,26 @@
 h1{
-    color:black
+    color:black;
+    padding-top: 100px;
     
 }
 
 body{
-    background-color: snow;
+    background-color: #84A98C;
+}
+
+.container{
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+
+.forgot_password{
+    text-align: center;
+}
+
+.Account_issues{
+    text-align: center;
+}
+
+.login_button{
+    text-align: center;
 }
