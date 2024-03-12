@@ -1,15 +1,10 @@
 h1{
-<<<<<<< HEAD
     color:black;
     padding-top: 100px;
-=======
-    color:black
->>>>>>> 861b6be6eeb938681381d52e9470aa3b83bc46d6
     
 }
 
 body{
-<<<<<<< HEAD
     background-color: #84A98C;
 }
 
@@ -28,7 +23,4 @@ body{
 
 .login_button{
     text-align: center;
-=======
-    background-color: snow;
->>>>>>> 861b6be6eeb938681381d52e9470aa3b83bc46d6
 }
