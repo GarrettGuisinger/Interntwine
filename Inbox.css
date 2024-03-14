@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,4 +28,38 @@ li a.active {
 li a:hover:not(.active) {
 background-color: #555;
 color: white;
+}
+
+.chat_history{
+  float: left;
+  margin-left: 1%;
+  margin-right: 5;
+  height: 1500px;
+  width: 1000px;
+  border-style:solid;
+  border-color:#000;
+  border-width: 5px;
+  border-radius: 2%;
+
+}
+
+
+.inbox_messages{
+  float: left;
+  margin-left: 6%;
+  margin-right: 3;
+  width: 500px;
+  height: 1500px;
+  border-style:solid;
+  border-color:#000;
+  border-width: 5px;
+  border-radius: 2%;
+
+}
+
+.text_box {
+  position: relative; /* Set position to absolute */
+  bottom: 10; /* Place at the bottom */
+  width: 100%; /* Take full width */
+  padding: 10px; /* Add padding for better appearance */
 }
