@@ -2,42 +2,47 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
         <title>Interntwine</title>
         <link rel="stylesheet" href="Landing_page.css">
     </head>
+    
+
 
     <body>
-        <h1 style = "text-align: center;"> 
+        
+        <h1 style="text-align: center;"> 
             Welcome to Interntwine
-        </h1>
+        </h1>      
 
-        <div class = login_box>
+        <div class = login_container>
+        <div class="container">
             <form>
-                <span>
-                    <label for = "Username:">Username:</label><br>
-                    <input type = "text" id = "Username">
-                </span>
-
+                <label for = "Username:">Username<Username:</label><br>
+                <input type = "text" id = "Username">
             </form>
 
             <form>
-                <span>
-                    <label for = "Password:">Password:</label><br>
-                    <input type = "text" id = "Password">
-                </span>
+                <label for = "Password:">Password:</label><br>
+                <input type = "text" id = "Password">
+
             </form>
+        </div>
         </div>
              
 
         <div class = login_button>
-            <button>
+            <button type = "button" class = "btn btn-success">
                 Login
             </button>
+
         </div>
 
+        <div class="container">
         <p class = Account_issues>
             <a href="url">Forgot password?</a> <br>
             <a href="url">Create account</a>
         </p>
+        </div>
     </body>
 </html> 
