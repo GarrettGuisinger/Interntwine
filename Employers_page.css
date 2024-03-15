@@ -4,10 +4,6 @@
     overflow: auto;
 }
 
-.row {
-  width: 80%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,7 +13,11 @@ ul {
     border: 1px solid #52796f;
     position: fixed;
     height: 96%;
-    overflow: auto;
+    overflow:auto;
+  }
+
+  div input {
+    width: 80%;
   }
 
   li a {
@@ -26,7 +26,7 @@ ul {
     padding: 86px 0px;
     text-decoration: none;
     text-align: center;
-}
+  }
 
 li a.active {
         background-color: #2f3e46;
@@ -52,7 +52,7 @@ body {
     background-color: #84A98C;
     margin: 10px;
     font-size: 30px;
-    margin-left:32%; 
+    margin-left:38%; 
     padding:1px 16px; 
     height:200px; 
     width:60%;
