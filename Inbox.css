@@ -1,12 +1,26 @@
 
+body {
+  background-color: #CAD2C5;
+}
+
+.InboxMessages {
+  float: left;
+  margin-left: 1%;
+  margin-right: 5%;
+  background-color: #84A98C;
+  height: 1000px;  
+  position: fixed;
+  border-bottom: solid black;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #cad2c5 ;
-    text-align: center;
+    width: 14%;
+    background-color: #52796F ;
     border: 1px solid #52796f;
+    text-align: center;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -21,45 +35,46 @@ ul {
 }
 
 li a.active {
-        background-color: #2f3e46;
-        color: white;
-        }
+  background-color: #2f3e46;
+  color: white;
+  }
 
 li a:hover:not(.active) {
-background-color: #555;
+background-color: #354F52;
 color: white;
 }
+
 
 .chat_history{
   float: left;
   margin-left: 1%;
-  margin-right: 5;
-  height: 1500px;
-  width: 1000px;
-  border-style:solid;
-  border-color:#000;
-  border-width: 5px;
-  border-radius: 2%;
+  margin-right: 5%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #cad2c5 ;
+}
 
+.ContactContainer {
+  border: solid 1px #000;
+  border-radius: 1%;
+  cursor: pointer;
+  height: 650px;
 }
 
 
-.inbox_messages{
-  float: left;
-  margin-left: 6%;
-  margin-right: 3;
-  width: 500px;
-  height: 1500px;
-  border-style:solid;
-  border-color:#000;
-  border-width: 5px;
-  border-radius: 2%;
-
+.ChatBox{
+  background-color: white;
+  width: 99%;
+  height: 625px;
 }
 
-.text_box {
-  position: relative; /* Set position to absolute */
-  bottom: 10; /* Place at the bottom */
-  width: 100%; /* Take full width */
-  padding: 10px; /* Add padding for better appearance */
+.Entertxt{
+  justify-content: flex-start;
+  margin-top: 700px;
+  width: 100px;
+}
+
+.NewMessage{
+  cursor: pointer;
 }
