@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const landing_page = () => {
   return (
@@ -52,5 +53,5 @@ const landing_page = () => {
   )
 }
 
-export default landing_page
+export default landing_page;
 

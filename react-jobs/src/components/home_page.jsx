@@ -1,6 +1,6 @@
 import React from 'react'
-import sdsu from "../src/assets/images/sdsu.jpg"
-import person from "../src/assets/images/person.jpg"
+//import sdsu from "../src/assets/images/sdsu.jpg"
+//import person from "../src/assets/images/person.jpg"
 const home_page = () => {
   return ( 
 
@@ -32,8 +32,8 @@ const home_page = () => {
           </div>
 
           <div className = "bg-gray-100 flex items-center justify-center flex-grow relative">
-          <img src={sdsu} alt="sdsu" className='rounded-lg sm:w-32 sm:h-32 lg:w-32 lg:h-32 absolute top-5 left-5 '   />
-          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/>  
+          {/* <img src={sdsu} alt="sdsu" className='rounded-lg sm:w-32 sm:h-32 lg:w-32 lg:h-32 absolute top-5 left-5 '   />
+          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/>  */}
             <p className='absolute top-60 left-80 text-3xl'>
                <br/>
             </p>
@@ -52,7 +52,7 @@ const home_page = () => {
   );
 }
 
-export default App;
+export default home_page;
 
 
 
