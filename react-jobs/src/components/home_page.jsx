@@ -1,6 +1,9 @@
 import React from 'react'
-//import sdsu from "../src/assets/images/sdsu.jpg"
-//import person from "../src/assets/images/person.jpg"
+import sdsu from "../assets/images/sdsu.jpg"
+import person from "../assets/images/person.jpg"
+import { Link } from 'react-router-dom';
+
+
 const home_page = () => {
   return ( 
 
@@ -14,11 +17,11 @@ const home_page = () => {
 
           <nav className='flex flex-col mt-5'>
             
-            <a href="#Home" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Home</a>
-            <a href="https://www.youtube.com/" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Inbox</a>
-            <a href="https://app.joinhandshake.com/stu/student_onboardings/new" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Events</a>
-            <a href="https://www.linkedin.com/in/luiz-gonzalez-bautista/"className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Jobs</a>
-            <a href="w3schools.com" className='flex items-center justify-center h-48 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' >Employers</a>
+            <Link to="/Home" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Home</Link>
+            <Link to="/Inbox" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Inbox</Link>
+            <Link to="/Events" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Events</Link>
+            <Link to="/Jobs" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Jobs</Link>
+            <Link to="/Employers" className='flex items-center justify-center h-48 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' >Employers</Link>
             
             </nav>
 </div>
@@ -32,10 +35,10 @@ const home_page = () => {
           </div>
 
           <div className = "bg-gray-100 flex items-center justify-center flex-grow relative">
-          {/* <img src={sdsu} alt="sdsu" className='rounded-lg sm:w-32 sm:h-32 lg:w-32 lg:h-32 absolute top-5 left-5 '   />
-          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/>  */}
-            <p className='absolute top-60 left-80 text-3xl'>
-               <br/>
+           <img src={sdsu} alt="sdsu" className='rounded-lg sm:w-32 sm:h-32 lg:w-32 lg:h-32 absolute top-5 left-5 '/>
+          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/>  
+            <p className='absolute top-64 left-85 text-3xl'>
+               Luiz Gonzalez Jesus Bautista<br/>
             </p>
           </div>
 
