@@ -18,12 +18,12 @@ const landing_page = () => {
         <div className ="text-center pt-5">
 
             <form>
-                <label for = "Username:">Username:</label>
+                <label for = "Username:">Username:</label><br/>
                 <input type = "text" id = "Username"/>
             </form>
 
             <form>
-                <label for = "Password:">Password:</label>
+                <label for = "Password:">Password:</label><br/>
                 <input type = "text" id = "Password"/>
             </form>
 
