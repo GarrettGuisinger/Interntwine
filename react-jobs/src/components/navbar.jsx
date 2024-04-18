@@ -1,11 +1,21 @@
 import React from 'react'
 
-const Inbox_page = () => {
+const navbar = () => {
   return (
+    
+    
     <div>
       
+
+
+
     </div>
   )
 }
 
-export default Inbox_page
+
+
+export default navbar
+
+
+

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Inbox_page = () => {
+const Employers_page = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Inbox_page = () => {
   )
 }
 
-export default Inbox_page
+export default Employers_page
