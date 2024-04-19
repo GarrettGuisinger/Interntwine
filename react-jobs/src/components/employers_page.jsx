@@ -40,10 +40,10 @@ const Employers_page = () => {
       <label className="mr-2" for="Visited Events">Visited Events</label>
       <input id="Visited Events" type="text" class="w-48 border rounded-md px-4"/>
       </form> <br/>
-      <form className='flex flex-col justify-center items-center'>
+      {/*<form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Employee">Employee Name</label>
       <input id="Employee" type="text" class="w-48 border rounded-md px-4"/>
-      </form> <br/>
+  </form> <br/> */}
       <p className='flex flex-col text-xl justify-center items-center'><u>Job Roles</u></p><br/>
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Software">Software</label>
@@ -72,6 +72,9 @@ const Employers_page = () => {
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Sales">Sales</label>
       <input id="Sales" type="checkbox"/>
+      </form> <br/>
+      <form className='flex flex-col justify-center items-center'>
+      <input id="searchSubmit" type="submit"/>
       </form> <br/>
     </div>
 
