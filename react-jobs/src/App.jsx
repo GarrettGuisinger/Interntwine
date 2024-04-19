@@ -29,12 +29,14 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Layout />}>
-                        <Route index element={<Forgot />} />
+                        <Route index element={<Landing />} />
                         <Route path="Home" element={<Home />} />
                         <Route path="Inbox" element={<Inbox />} />
                         <Route path="Events" element={<Events />} />
                         <Route path="Jobs" element={<Jobs />} />
                         <Route path="Employers" element={<Employers/>}/>
+                        <Route path="Forgotpassword" element={<Forgot/>}/>
+
                     </Route>
                 </Routes>
             </Router>

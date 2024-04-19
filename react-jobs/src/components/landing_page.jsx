@@ -45,8 +45,14 @@ const landing_page = () => {
 
         <div className="container mt-4 ">
             <p className = "text-center">
+
+                <Link to="/Forgotpassword">
                 <a href="url" className='text-blue-500 underline'>Forgot password?</a> <br/>
+                </Link>
+
+                <Link to="/Createaccount">
                 <a href="url" className='text-blue-500 underline'>Create account</a>
+                </Link>
             </p>
         </div>
 </body>
