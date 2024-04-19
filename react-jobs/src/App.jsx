@@ -6,10 +6,10 @@ import Create_Account from './components/account_creation'
 import Layout from './components/Layout'
 import Home from './components/home_page'
 import Landing from './components/landing_page'
-import Inbox from "./components/Inbox_page"
+import Inbox from './components/inbox_page'
 import Events from "./components/Events_page"
 import Jobs from "./components/Jobs_page"
-import Employers from "./components/Employers_page"
+import Employers from "./components/employer_page"
 import Forgot from "./components/Forgot_Password"
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
@@ -34,8 +34,10 @@ function App() {
                         <Route path="Inbox" element={<Inbox />} />
                         <Route path="Events" element={<Events />} />
                         <Route path="Jobs" element={<Jobs />} />
-                        <Route path="Employers" element={<Employers/>}/>
-                        <Route path="Forgotpassword" element={<Forgot/>}/>
+                        <Route path="Employers" element={<Employers />} />
+                        <Route path="Forgotpassword" element={<Forgot />} />
+                        <Route path="Createaccount" element={<Create_Account/>} />
+
 
                     </Route>
                 </Routes>

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Navbar from './navbar'
 const Jobs_page = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
