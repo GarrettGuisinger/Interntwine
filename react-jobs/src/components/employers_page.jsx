@@ -107,5 +107,4 @@ const employers_page = () => {
   )
 }
 
-
 export default employers_page;
