@@ -9,8 +9,8 @@ import Landing from './components/landing_page'
 import Inbox from './components/inbox_page'
 import Events from "./components/Events_page"
 import Jobs from "./components/Jobs_page"
-
 import Employers from "./components/employer_page"
+import Forgot from "./components/Forgot_Password"
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
@@ -29,12 +29,13 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Layout />}>
-                        <Route index element={<Forgot />} />
+                        <Route index element={<Landing />} />
                         <Route path="Home" element={<Home />} />
                         <Route path="Inbox" element={<Inbox />} />
                         <Route path="Events" element={<Events />} />
                         <Route path="Jobs" element={<Jobs />} />
                         <Route path="Employers" element={<Employers />} />
+                        <Route path="Forgotpassword" element={<Forgot />} />
 
                     </Route>
                 </Routes>
