@@ -107,10 +107,5 @@ const employers_page = () => {
   )
 }
 
-<<<<<<< HEAD
 
 export default employers_page;
->>>>>>> 0904c26a8775bd979bd34d651630068670a8734b
-=======
-export default employers_page;
->>>>>>> 179839b1069d43fcff6bb4d1499fbdf0ef951f12
