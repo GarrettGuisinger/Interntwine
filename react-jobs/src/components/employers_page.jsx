@@ -2,7 +2,7 @@ import Container from 'postcss/lib/container';
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Employers_page = () => {
+const employers_page = () => {
   return (
    <>
 
@@ -107,4 +107,4 @@ const Employers_page = () => {
   )
 }
 
-export default Employers_page;
+export default employers_page;

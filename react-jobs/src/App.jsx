@@ -9,7 +9,7 @@ import Landing from './components/landing_page'
 import Inbox from "./components/inbox_page"
 import Events from "./components/Events_page"
 import Jobs from "./components/Jobs_page"
-import Employers from "./components/Employers_page"
+import Employers from "./components/employers_page"
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
