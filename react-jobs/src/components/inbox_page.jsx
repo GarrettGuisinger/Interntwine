@@ -64,4 +64,4 @@ const inbox_page = () => {
   );
 }
 
-export default Inbox_page
+export default inbox_page
