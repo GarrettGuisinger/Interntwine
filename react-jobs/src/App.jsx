@@ -36,6 +36,8 @@ function App() {
                         <Route path="Jobs" element={<Jobs />} />
                         <Route path="Employers" element={<Employers />} />
                         <Route path="Forgotpassword" element={<Forgot />} />
+                        <Route path="Createaccount" element={<Create_Account/>} />
+
 
                     </Route>
                 </Routes>
