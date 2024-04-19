@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout'
 import Home from './components/home_page'
 import Landing from './components/landing_page'
+//import Inbox from './components/inbox_page'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
@@ -23,7 +24,6 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Layout />}>
-                        <Route index element ={<Inbox/>} />
                         <Route index element={<Landing />} />
                         <Route path="Home" element={<Home />} />
                         <Route path="Inbox" element={<Inbox />} />
