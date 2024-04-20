@@ -1,12 +1,27 @@
-import React from 'react'
+//import React from 'react'
 import sdsu from "../assets/images/sdsu.jpg"
 import person from "../assets/images/person.jpg"
 import { Link } from 'react-router-dom';
 import Navbar from './navbar'
-
-
+import React, {useState, useEffect} from 'react'
+import axios from 'axios';
 
 const home_page = () => {
+  const [username, setUsername] = useState('');
+
+  useEffect(() =>{
+    const fetchUsername = async () => {
+      try {
+        const response = await axios.get('/api/get_username/');
+        setUsername(response.data.username);
+      } catch (error) {
+        console.error('Error fetching username:', error);
+      }
+    };
+
+    fetchUsername();
+  }, []);
+
   return ( 
 
 <>
@@ -31,7 +46,7 @@ const home_page = () => {
           </button>
  
             <p className='absolute top-64 left-85 text-3xl'>
-               Luiz Gonzalez Jesus Bautista<br/>
+               {username || 'guest'}<br/>
             </p>
           </div>
 
