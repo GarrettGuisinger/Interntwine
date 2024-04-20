@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import Navbar from './navbar'
 import Text_Box from './Text_Box';
 
-
-
 const inbox_page = () => {
   return ( 
 
@@ -14,6 +12,7 @@ const inbox_page = () => {
 <body>
 
 <div className='flex h-full bg-gray-300 '>
+
 
           <Navbar/>
           <div className='flex flex-col border border-gray-500 w-70 h-full'>
