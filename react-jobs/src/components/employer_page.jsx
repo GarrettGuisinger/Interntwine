@@ -1,27 +1,16 @@
 import Container from 'postcss/lib/container';
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Navbar from './navbar'
 
 const employer_page = () => {
   return (
    <>
 
-<body className = "bg-gray-300">
-    <div className="flex">
-    <div className='flex-1 flex-col border border-gray-500 w-64 sticky top-0' style={{height: "990px"}}>
-      
-    <div className='flex items-center justify-center h-32 bg-gray-900 text-white'> INTERNTWINE</div>
-        <nav>
-            
-            <a href="#Home" className='flex items-center justify-center px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' style={{height: "172px"}}>Home</a>
-            <a href="https://www.youtube.com/" className='flex items-center justify-center px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' style={{height: "172px"}}>Inbox</a>
-            <a href="https://app.joinhandshake.com/stu/student_onboardings/new" className='flex items-center justify-center px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' style={{height: "172px"}}>Events</a>
-            <a href="https://www.linkedin.com/in/luiz-gonzalez-bautista/"className='flex items-center justify-center px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' style={{height: "172px"}}>Jobs</a>
-            <a href="w3schools.com" className='flex items-center justify-center px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' style={{height: "172px"}}>Employers</a>
-            
-        </nav>
-    </div>
-    <div className='flex-1 flex-col border border-gray-500 w-64 mr-4 sticky top-0' style={{height: "990px"}}>
+<body className = "bg-gray-300 ">
+    <div className="flex ">
+    <Navbar/>
+    <div className='flex-1 flex-col border border-gray-500 w-64 mr-4 flex top-0 ' style={{height: "990px"}}>
     <div className='flex items-center justify-center h-32 text-xl bg-gray-900 text-white'> Search</div>
     <br/>
       <form className='flex flex-col justify-center items-center'>
