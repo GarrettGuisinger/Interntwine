@@ -1,41 +1,40 @@
 import React from 'react'
-
-const account_creation = () => {
-  return (
-    <>
-    <body className='bg-gray-400 min-h-screen'>
-
-        <h1 className='font-bold text-5xl flex justify-center py-20'>
-            Create Account
-        </h1>
-        
+import Forms from './form'
 
 
-        <div className='text-center rounded-lg'>
+function account_creation(){
 
-            <form className='pb-4'>
-                <label for = "Username:">Email:</label><br/>
-                <input type = "text" class = "shadow appearance-none border rounded-lg py-2 px-0 text-gray-700 leading-tight focus:outline-none focus:shadow-lg" id = "Username"/>
-                
-            </form>
-
-            <form className='pb-4'>
-                <label for = "Password:">Password:</label><br/>
-                <input type = "text" class = "shadow appearance-none border rounded-lg py-2 px-0 text-gray-700 leading-tight focus:outline-none focus:shadow-lg" id = "Username"/>
-            </form>
-
+    
+        return <Forms route="api/user/Createaccount/" method="Createaccount"/>
+    {/*<body className="flex justify-center items-center h-screen">
+<div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 ml-64">
+    <form className="space-y-6" action="#">
+        <h5 className="text-xl font-medium text-gray-900 dark:text-white">Interntwine</h5>
+        <div>
+            <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+            <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white form-input" placeholder="nameeee@company.com" required />
         </div>
-
-        <div className='flex justify-center'>
-            <button  button type = "button" className = "text-white font-bold py-2 px-10 rounded-lg bg-green-600 hover:bg-green-500 focus:shadow-lg">
-                Sign Up
-            </button>
+        <div>
+            <label for="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+            <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
         </div>
+        <div className="flex items-start">
+            <div className="flex items-start">
+                <div className="flex items-center h-5">
+                    <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                </div>
+                <label for="remember" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+            </div>
+            <a href="#" className="ms-auto text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+        </div>
+        <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
+        <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
+            Not registered? <a href="#" className="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+        </div>
+    </form>
+</div>
 
-        
-    </body>
-    </>
-  )
+  </body>*/}
+
 }
-
-export default account_creation
+export default account_creation;

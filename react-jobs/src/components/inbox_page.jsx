@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-
-
+import Text_Box from './Text_Box';
+import Navbar from './navbar'
 const inbox_page = () => {
   return ( 
 <>
@@ -9,19 +8,7 @@ const inbox_page = () => {
 
 <div className='flex h-screen bg-gray-300 '>
 
-<div className='flex flex-col border border-gray-500 w-55'>
-  <div className='flex items-center justify-center h-32 bg-gray-900 text-white'> INTERNTWINE</div>
-
-          <nav className='flex flex-col mt-5'>
-
-            <a href="#Home" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Home</a>
-            <a href="https://www.youtube.com/" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Inbox</a>
-            <a href="https://app.joinhandshake.com/stu/student_onboardings/new" className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Events</a>
-            <a href="https://www.linkedin.com/in/luiz-gonzalez-bautista/"className='flex items-center justify-center h-40 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700'>Jobs</a>
-            <a href="w3schools.com" className='flex items-center justify-center h-48 px-4 text-gray-700 hover:bg-gray-400 hover:text-white border-b border-gray-700' >Employers</a>
-
-            </nav>
-</div>
+<Navbar/>
 
 <div className='flex flex-col border border-gray-500 w-70'>
 
