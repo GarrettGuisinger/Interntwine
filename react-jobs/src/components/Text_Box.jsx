@@ -1,26 +1,31 @@
 import React, { useState } from 'react';
 
 function Text_Box() {
-  const [text, setText] = useState(''); // State to manage the value of the text box
+    const [text, setText] = useState('');
 
-  // Function to handle changes in the text box
-  const handleChange = (event) => {
-    setText(event.target.value); // Update the state with the new value entered in the text box
-  };
+    const handleChange = (event) => {
+        setText(event.target.value);
+    };
 
-  return (
-    <div>
-      {/* Input element for the text box */}
-      <input
-        type="text"
-        value={text} // Bind the value of the text box to the state
-        onChange={handleChange} // Handle changes in the text box
-        placeholder="Enter text here" // Placeholder text
-      />
-      {/* Display the value of the text box */}
-      <p>You entered: {text}</p>
-    </div>
-  );
+    const handleSubmit = () => {
+        // Handle submit logic here
+        console.log('Submitted:', text);
+    };
+
+    return (
+        <div className='flex items-end justify-end h-full w-full px-2 fixed sticky'>
+            <input
+                type="text"
+                value={text}
+                onChange={handleChange}
+                placeholder="Enter text here"
+                className="w-full mr-2"
+            />
+            <button onClick={handleSubmit} className="px-2 py-1 bg-blue-500 text-white rounded-md shadow hover:bg-blue-600">
+                Submit
+            </button>
+        </div>
+    );
 }
 
 export default Text_Box;
