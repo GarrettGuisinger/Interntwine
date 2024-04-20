@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
+from django.http import JsonResponse
 from rest_framework import generics
 from .serializer import UserSerializer, NoteSerializer
 from rest_framework.permissions import IsAuthenticated, AllowAny
@@ -21,8 +22,16 @@ class NoteListCreate(generics.ListCreateAPIView):
         else:
             print(serializer.errors)
 
-        return 1
+    
 
+
+
+def get_username(request):
+    if request.user.is_authenticated:
+        username = request.user.username
+    else:
+        username = None
+    return JsonResponse({'username': username})
 
 
 class NoteDelete(generics.DestroyAPIView):
