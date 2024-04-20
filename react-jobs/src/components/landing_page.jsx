@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Forms from "./form"
 
-const landing_page = () => {
-  return (
-   <>
+function landing_page() {
+return <Forms route="api/token/" method="Landing"/>
+
+
+}
  
 
- <body className = "bg-green-200 min-h-screen p-40">
 
+{/*
 <h1 className="container" > 
             <div className ="text-center font-bold text-5xl"> 
             Welcome to Interntwine 
@@ -52,12 +55,10 @@ const landing_page = () => {
                 <a href="url" className='text-blue-500 underline'>Create account</a>
                 </Link>
             </p>
-        </div>
-</body>
+  </div>*/}
 
-   </>
-  )
-}
+
+  
 
 export default landing_page;
 
