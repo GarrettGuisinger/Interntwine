@@ -8,7 +8,6 @@ function Text_Box() {
     };
 
     const handleSubmit = () => {
-        // Handle submit logic here
         console.log('Submitted:', text);
     };
 

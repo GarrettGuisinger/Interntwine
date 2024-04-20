@@ -21,14 +21,14 @@ const inbox_page = () => {
   <nav className='flex flex-col'>
     <div className='border-b border-black pb-4 hover:bg-gray-400 hover:text-white'>
       <h3 className='flex text-gray-700 mb-0'>Contact 1</h3>
-      <div className="ml-2"> {/* Wrapper for image and text */}
+      <div className="ml-2">
       <img src="https://i1.sndcdn.com/artworks-BJV6jTbECzqd8BXO-IyDtXQ-t500x500.jpg" alt="Contact 1" className="w-12 h-auto rounded-full" />
       <p> Hello, I was interested in...</p>
       </div>
     </div>
     <div className='border-b border-black pb-4 hover:bg-gray-400 hover:text-white'>
       <h3 className='flex text-gray-700 mb-0'>Contact 2</h3>
-      <div className="ml-2"> {/* Wrapper for image and text */}
+      <div className="ml-2">
       <img src="https://policyviz.com/wp-content/uploads/2020/12/amazon-logo-square.jpg" alt="Contact 2" className="w-12 h-12 rounded-full" />
       <p> We have an opening aval...</p>
       </div>
