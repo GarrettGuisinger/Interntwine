@@ -10,7 +10,7 @@ function form({route, method}){
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
-    const name = method === "Landing" ? "Landing" : "Register";
+    const name = method === "Landing" ? "Log in" : "Register";
 
     const handleSubmit = async (e) => {
         setLoading(true);
@@ -34,8 +34,8 @@ function form({route, method}){
         };
     return (
     <>
-    <body className="bg-blue-200 flex justify-center items-center h-screen">
-    <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 ml-64">
+    <body className="bg-gray-500">
+    <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-xl shadow-xl sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
         <form onSubmit={handleSubmit} className="space-y-6" action="#">
             <h5 className="text-xl font-medium text-gray-900 dark:text-white">{name}</h5>
             <div>
