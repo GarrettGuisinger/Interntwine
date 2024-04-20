@@ -25,7 +25,11 @@ const home_page = () => {
 
           <div className = "bg-gray-100 flex items-center justify-center flex-grow relative">
            <img src={sdsu} alt="sdsu" className='rounded-lg sm:w-32 sm:h-32 lg:w-32 lg:h-32 absolute top-5 left-5 '/>
-          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/>  
+          <img src={person} alt="Person" className='rounded-full w-60 h-60 absolute top-5 left-30 '/> 
+          <button className="w-32 absolute top-0 right-0 mt-4 mr-4 text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 form-button">
+            <Link to="/logout">Log Out</Link>
+          </button>
+ 
             <p className='absolute top-64 left-85 text-3xl'>
                Luiz Gonzalez Jesus Bautista<br/>
             </p>
