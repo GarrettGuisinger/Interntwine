@@ -10,7 +10,7 @@ const Jobs_page = () => {
 
         <div className='flex'>
 
-          <div className='w-64'>
+          <div className='w-64 bg-gray-300 min-h-screen'>
             <Navbar/>
           </div>
 
