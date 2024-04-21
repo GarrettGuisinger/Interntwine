@@ -7,10 +7,10 @@ const employer_page = () => {
   return (
    <>
 
-<body className = "bg-gray-300 ">
+<body className = "bg-gray-300 min-h-screen">
     <div className="flex ">
     <Navbar/>
-    <div className='flex-1 flex-col border border-gray-500 w-64 mr-4 flex top-0 ' style={{height: "990px"}}>
+    <div className='sticky flex-1 flex-col border border-gray-500 flex max-w-64 mr-4 flex top-0 ' style={{height: "990px"}}>
     <div className='flex items-center justify-center h-32 text-xl bg-gray-900 text-white'> Search</div>
     <br/>
       <form className='flex flex-col justify-center items-center'>
@@ -29,10 +29,6 @@ const employer_page = () => {
       <label className="mr-2" for="Visited Events">Visited Events</label>
       <input id="Visited Events" type="text" class="w-48 border rounded-md px-4"/>
       </form> <br/>
-      {/*<form className='flex flex-col justify-center items-center'>
-      <label className="mr-2" for="Employee">Employee Name</label>
-      <input id="Employee" type="text" class="w-48 border rounded-md px-4"/>
-  </form> <br/> */}
       <p className='flex flex-col text-xl justify-center items-center'><u>Job Roles</u></p><br/>
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Software">Software</label>
@@ -63,11 +59,11 @@ const employer_page = () => {
       <input id="Sales" type="checkbox"/>
       </form> <br/>
       <form className='flex flex-col justify-center items-center'>
-      <input id="searchSubmit" type="submit"/>
+      <input id="searchSubmit" type="submit" className='border border-gray-500 w-32'/>
       </form> <br/>
     </div>
 
-    <div>
+    <div className='bg-gray-300'>
     <div className='flex-2 flex-col border border-gray-500 mt-4 ml-6' style={{ width: "1280px", height: "256px"}}>
 
     </div>
