@@ -10,7 +10,7 @@ function form({route, method}){
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
-    const name = method === "Landing" ? "Log in" : "Register";
+    const name = method === "Landing" ? "Log in" : ("Forgot" ? "Forgot Password" : "Create Account");
 
     const handleSubmit = async (e) => {
         setLoading(true);
