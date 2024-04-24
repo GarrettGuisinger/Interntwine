@@ -18,7 +18,7 @@ const inbox_page = () => {
           <div className='flex flex-col border border-gray-500 w-70 h-full'>
 
   <nav className='flex flex-col'>
-    <div className='border-b border-black pb-4 hover:bg-gray-400 hover:text-white py-2'>
+    <div className='border-b border-black pb-4 hover:bg-gray-400 hover:text-white'>
       <h3 className='flex text-gray-700 mb-0'>Contact 1</h3>
       <div className="ml-2">
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" alt="Contact 1" className="w-12 h-auto rounded-full bg-white" />
@@ -96,7 +96,7 @@ const inbox_page = () => {
 </div>
 </body>
 </>
-  );
+  );  
 }
 
 export default inbox_page;
