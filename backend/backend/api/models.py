@@ -9,3 +9,8 @@ class Note(models.Model):
 
     def __str__(self):
         return self.title
+    
+class employers(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=100)
+    
