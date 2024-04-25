@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const SearchComponent = () => {
+const search = () => {
     const [formData, setFormData] = useState({
         companyName: '',
         location: '',
@@ -80,3 +80,5 @@ return (
     </>
 )
 }
+
+export default search
