@@ -8,7 +8,8 @@ const account_creation = () => {
         <body className='min-h-screen bg-gray-500 flex justify-center items-center'>
 
             <div>
-                <Forms route="api/token/" method="Test"/>
+                <Forms route="api/user/Createaccount/" method="Test"/>
+
             </div>
         </body>
 
@@ -17,3 +18,6 @@ const account_creation = () => {
 }
 
 export default account_creation
+
+{/*                  <Forms route="api/token/" method="Test"/>/
+      */}
