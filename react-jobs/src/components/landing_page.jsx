@@ -8,13 +8,15 @@ function landing_page() {
     
     <>
     
-    <body className='min-h-screen bg-gray-500 flex justify-center items-center'>
+    <body className='h-screen bg-gray-500'>
 
-            
-        <div>
-            <h1 className='flex items-center justify-center font-bold text-5xl pb-5'>
-                Interntwine
-            </h1>
+            <div className='flex justify-center items-center pb-5'>
+                <h1 className='text-5xl text-center font-bold'>
+                    Welcome to Interntwine
+                </h1>
+            </div>
+
+            <div className='flex justify-center'>
             <Forms route="api/token/" method="Landing"/>
         </div>
 

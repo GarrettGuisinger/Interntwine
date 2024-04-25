@@ -22,16 +22,12 @@ class NoteListCreate(generics.ListCreateAPIView):
         else:
             print(serializer.errors)
 
-    
-
-
-
-def get_username(request):
-    if request.user.is_authenticated:
-        username = request.user.username
-    else:
-        username = None
-    return JsonResponse({'username': username})
+#def get_username(request):
+ #   if request.user.is_authenticated:
+  #      username = request.user.username
+   # else:
+     #   username = None
+    #return JsonResponse({'username': username})
 
 
 class NoteDelete(generics.DestroyAPIView):
