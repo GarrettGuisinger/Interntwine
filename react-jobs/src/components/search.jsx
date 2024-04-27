@@ -40,10 +40,6 @@ return (
       <label className="mr-2" for="Location">Location</label>
       <input id="Location" type="text" class="w-48 border rounded-md px-4"/>
       </form> <br/>
-      <form className='flex flex-col justify-center items-center'>
-      <label className="mr-2" for="Visited Events">Visited Events</label>
-      <input id="Visited Events" type="text" class="w-48 border rounded-md px-4"/>
-      </form> <br/>
       <p className='flex flex-col text-xl justify-center items-center'><u>Job Roles</u></p><br/>
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Software">Software</label>
