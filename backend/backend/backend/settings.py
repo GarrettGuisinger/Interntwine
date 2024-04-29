@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 from dotenv import load_dotenv
+import psycopg2
 import os
 
 load_dotenv()
@@ -98,8 +99,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'CompE561-Interntwine', # Name of your PostgreSQL database
+        'USER': 'postgres',    # PostgreSQL username
+        'PASSWORD': '561Intern', # PostgreSQL password
+        'HOST': 'localhost',   # Database host (leave empty for localhost)
+        'PORT': '5432',  # Database port (leave empty for default) 
     }
 }
 
