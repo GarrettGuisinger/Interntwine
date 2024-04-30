@@ -33,7 +33,7 @@ return (
 <div className='flex items-center justify-center h-32 text-xl bg-gray-900 text-white'> Search</div>
     <br/>
       <form className='flex flex-col justify-center items-center'>
-      <label className="mr-2" for="Name">Company Name</label> 
+      <label className="mr-2" for="Name">Name</label> 
       <input id="Name" type="text" class="w-48 border rounded-md px-4"/>
       </form> <br/>
       <form className='flex flex-col justify-center items-center'>
@@ -60,10 +60,6 @@ return (
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Engineering">Engineering</label>
       <input id="Engineering" type="checkbox"/>
-      </form> <br/>
-      <form className='flex flex-col justify-center items-center'>
-      <label className="mr-2" for="Education">Education</label>
-      <input id="Education" type="checkbox"/>
       </form> <br/>
       <form className='flex flex-col justify-center items-center'>
       <label className="mr-2" for="Sales">Sales</label>
