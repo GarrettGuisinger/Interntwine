@@ -12,5 +12,13 @@ class Note(models.Model):
     
 class employers(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=255)
+    locations = models.CharField(max_length=255)
+    software = models.BooleanField()
+    hardware = models.BooleanField()
+    business = models.BooleanField()
+    research = models.BooleanField()
+    engineering = models.BooleanField()
+    sales = models.BooleanField()
+    description = models.CharField(max_length=255)
     
