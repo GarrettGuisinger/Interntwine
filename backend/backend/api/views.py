@@ -5,8 +5,8 @@ from rest_framework import generics
 from .serializer import UserSerializer, NoteSerializer
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from .models import Note
-from .models import employers
-from .models import jobs
+from api.models import employers
+from api.models import jobs
 
 # Create your views here.
 class NoteListCreate(generics.ListCreateAPIView):

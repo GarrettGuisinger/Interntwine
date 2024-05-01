@@ -21,3 +21,15 @@ class employers(models.Model):
     engineering = models.BooleanField()
     sales = models.BooleanField()
     description = models.CharField(max_length=255)
+
+class jobs(models.Model):
+    id = models.IntegerField(primary_key=True)
+    title = models.CharField(max_length=255)
+    location = models.CharField(max_length=255)
+    software = models.BooleanField()
+    hardware = models.BooleanField()
+    business = models.BooleanField()
+    research = models.BooleanField()
+    engineering = models.BooleanField()
+    sales = models.BooleanField()
+    link = models.CharField(max_length=255)
