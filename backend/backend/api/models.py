@@ -21,4 +21,3 @@ class employers(models.Model):
     engineering = models.BooleanField()
     sales = models.BooleanField()
     description = models.CharField(max_length=255)
-    
