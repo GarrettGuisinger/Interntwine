@@ -29,7 +29,7 @@ const search = () => {
     };
 return (
     <>
-<div className='sticky flex-1 flex-col border border-gray-500 flex max-w-64 mr-4 flex top-0 ' style={{height: "990px"}}>
+<div className='sticky flex-1 flex-col border border-gray-500 flex max-w-64  flex top-0 ' style={{height: "990px"}}>
 <div className='flex items-center justify-center h-32 text-xl bg-gray-900 text-white'> Search</div>
     <br/>
       <form className='flex flex-col justify-center items-center'>
@@ -66,7 +66,7 @@ return (
       <input id="Sales" type="checkbox"/>
       </form> <br/>
       <form className='flex flex-col justify-center items-center'>
-      <input id="searchSubmit" type="submit" className='border border-gray-500 w-32'/>
+      <input id="searchSubmit" type="submit" className='border border-gray-500 w-32 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'/>
       </form> <br/>
     </div>
     </>

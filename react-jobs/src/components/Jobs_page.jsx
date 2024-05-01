@@ -1,14 +1,17 @@
 import React from 'react';
 import Navbar from './navbar';
 import JobCard from './Job_Card';
+import Search from './search'
+import Foot from './Footer'
 
 const JobsPage = () => {
   return (
     <div className="flex">
 
       {/* Sidebar */}
-      <div className="w-64 bg-gray-300 min-h-screen">
+      <div className="sticky w-45 bg-gray-300 min-h-screen flex">
         <Navbar />
+        <Search />
       </div>
 
       {/* Main Content */}
@@ -71,6 +74,7 @@ const JobsPage = () => {
               link="https://careers.viasat.com/jobs/2902/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
               title="Viasat - Data Scientist/Analyst Intern"
             />
+            <Foot /> 
           </div>
         </div>
       </div>
