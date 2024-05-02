@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from './navbar';
 import JobCard from './Job_Card';
+import Footer from './Footer';
 
 const JobsPage = () => {
   return (
+    <body>
     <div className="flex">
 
       {/* Sidebar */}
@@ -75,6 +77,8 @@ const JobsPage = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </body>
   );
 };
 

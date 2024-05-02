@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Navbar from './navbar'
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
+import Footer from './Footer';
 
 const home_page = () => {
   const [username, setUsername] = useState('');
@@ -25,6 +26,7 @@ const home_page = () => {
   return ( 
 
 <>
+
 <body>
 
 <div className='flex h-full bg-gray-300 '>
@@ -58,6 +60,7 @@ const home_page = () => {
 
           </div>
 </div>
+<Footer/>
 </body>
 </>
   );

@@ -15,7 +15,7 @@ const inbox_page = () => {
 <>
 <body>
 
-<div className='flex h-full bg-gray-300 '>
+<div className='flex h-full bg-gray-300'>
 
 
           <Navbar/>

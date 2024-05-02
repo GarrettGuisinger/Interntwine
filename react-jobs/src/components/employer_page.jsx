@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Navbar from './navbar'
 import Search from './search'
+import Footer from './Footer';
 
 const employer_page = () => {
   return (
@@ -37,7 +38,8 @@ const employer_page = () => {
 
 
 
-    </div> 
+    </div>
+    <Footer/> 
     </body>
    </>
   )
